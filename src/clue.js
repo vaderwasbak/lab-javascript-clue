@@ -1,5 +1,8 @@
 // ITERATION 1
 
+/*const field = document.getElementById("body");
+field.populateField();*/
+
 // Suspects Array
 
 const suspectsArray = [];
@@ -135,3 +138,15 @@ function revealMystery(envelope) {
     return `${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`;
 }
 
+/*document.onload(populateField);*/
+
+/*function populateField() {
+    suspectsArray.forEach(suspect => {
+    let newContainer = document.createElement("div");
+    let newImage = document.createElement("img");
+    let imageURL = `${suspect.image}`;
+    newImage.setAttribute("src", imageURL);
+    newContainer.appendChild(newImage);
+    field.appendChild(newContainer);
+    });
+}*/
